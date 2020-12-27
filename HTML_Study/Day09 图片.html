@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>图片</title>
+</head>
+
+    <!--
+        图片 img  行内标签，不会自动换行    
+            
+            必须属性    src 引入图片地址
+            常用属性    title 当鼠标悬停在图片上时显示的文字
+                        alt 当图片加载失败时，显示的文本
+                        width 宽度
+                        height 高度
+                        broder 加边框及粗细
+                        align   规定如何根据文本排列图像
+    -->
+
+<body>
+    <!--本地资源-->
+    <img src="Image/此地无图.jpg" alt="图文显示错误" />
+    <img src="Image/刺客伍六七.jpeg" width="250px" height="180px" />
+    <img src="Image/钟离.jpeg" width="="250px" height="180px" />
+    
+    <!--网络资源-->
+    <!--实现点击图片转网址-->
+    <a href="https://www.baidu.com">
+        <img src="https://www.baidu.com/img/dong_e70247ce4b0a3e5ba73e8b3b05429d84.gif" title="百度一下，你就知道" border="2" align="bottom" />
+    </a>
+    
+    <hr />
+
+    <div>
+        这是一个示例
+        <img src="Image/钟离.jpeg" width="=" 250px" height="180px" align="right"/>
+        这只是一个示例
+    </div>
+</body>
+</html>
